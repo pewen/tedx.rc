@@ -1,29 +1,25 @@
 <!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
 <html lang="en">
-
+<!--<![endif]-->
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-
     <title>TEDx Río Cuarto</title>
+    <meta name="description" content="TEDx Río Cuarto">
+    <meta name="author" content="@fnbellomo">
+
+    <!-- Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap core CSS -->
-    <link href="static/css/bootstrap.css" rel="stylesheet">
+    <link href="static/bootstrap-3.3.4/css/bootstrap.css" rel="stylesheet">
 
     <!-- Font Awesome CSS -->
     <link href="static/font-awesome-4.3.0/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Animate CSS -->
+    <link href="static/css/animate.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="static/css/main.css" rel="stylesheet">
@@ -34,95 +30,175 @@
 
   <body>
 
-    <!-- Navigation Bar -->
-    <!-- ============== -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
-	<div class="navbar-header">
-	  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-	  </button>
-	  
-	  <!-- logo -->
-	  <a class="navbar-brand logo-img">
-            <img src="static/images/logo.png" class="img-responsive" alt="Responsive image">
-	  </a>
-
-	  
-	</div><!--/ navbar-header -->
-	<div class="collapse navbar-collapse" id="myNavbar">
-	  <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Page 1</a></li>
-            <li><a href="#">Page 2</a></li>
-            <li><a href="#">Page 3</a></li>
-	  </ul>
-	</div><!--/ collapse navbar-collapse -->
-      </div><!--/ container-fluid -->
-    </nav>
-
-	
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron cover">
+    <!-- Fixed navbar -->
+    <!-- ============ -->
+    <div class="header fixed clearfix navbar navbar-fixed-top">
       <div class="container">
-	<div class="timer">
-          <h1 style="margin-top: 80px; color:#fff;" >
-	    <b>CADA VEZ</b> FALTA MENOS...
-	  </h1>
-	  <div class="clock">
-            <div id="days" class="timer_box"></div>
-            <div id="hours" class="timer_box"></div>
-            <div id="minutes" class="timer_box"></div>
-            <div id="seconds" class="timer_box"></div>
-	  </div><!--/ clock -->
-	</div><!--/ timer -->
+	<div class="row">
+
+	   <!-- Logo -->
+	   <!-- ==== -->
+	  <div class="col-md-4">
+            <!-- <a class="navbar-brand" href="#"><i class="fa fa-bolt"></i></a> -->
+	    <a href="/index.html">
+	      <img src="static/images/logo_blanco.png" alt="logo" style="width: 90%; height: 30%"/>
+	    </a>
+	  </div>
+
+	  <!-- TED and TEDX -->
+	  <!-- ============ -->
+	  <div class="col-md-8">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+              </button>
+            </div><!--/ navbar-header -->
+	    
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+		<li class="active"><a href="http://tedxriodelaplata.org/qué-es-ted">¿Qué es TED?</a></li>
+		<li class="active"><a href="http://tedxriodelaplata.org/qué-es-tedx">¿Qué es TEDx?</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+	  </div><!--/ col-md-8 -->
+
+	  <!-- Navbar -->
+	  <!-- ====== -->
+	  <ul class="nav navbar-nav">
+	    <li><a href="/eventos" title="">Eventos</a></li>
+	    <li><a href="/videos" title="">Videos</a></li>
+	    <li><a href="/equipo-organizador" title="">Equipo Organizador</a></li>
+	    <li><a href="/%C2%BFquer%C3%A9s-ayudar" title="">¿Querés Ayudar?</a></li>
+	    <li><a href="/sponsors" title="">Sponsors</a></li>
+	    <li><a href="/blog" title="">Blog</a></li>
+	  </ul>
+	  
+	</div><!--/ row -->
       </div><!--/ container -->
-    </div><!--/ jumbotron cover -->
+    </div><!--/ header -->
+    
+    <!-- Start Timer -->
+    <!-- =========== -->
+    <div class="fullscreen background" id="fist">
+      <div class="container">
+	<div class="row" >
+	  <div class="timer">
+	    <div class="wow bounceInDown">
+              <h1 style="margin-top: 80px;" >
+		<b>CADA VEZ</b> FALTA MENOS...
+	      </h1>
+	    </div>
+	    <div class="clock wow bounceInUp">
+              <div id="days" class="timer_box"></div>
+              <div id="hours" class="timer_box"></div>
+              <div id="minutes" class="timer_box"></div>
+              <div id="seconds" class="timer_box"></div>
+	    </div><!--/ clock -->
+	  </div><!--/ timer -->
+	</div><!--/ row -->
+      </div><!--/ container timer-->
+    </div><!-- greywrap -->
 
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce 
-dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut 
-fermentum massa justo sit amet risus. Etiam porta sem malesuada magna 
-mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce 
-dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut 
-fermentum massa justo sit amet risus. Etiam porta sem malesuada magna 
-mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis 
-in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. 
-Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
- ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
-        </div>
-      </div>
-
-    </div>
-      
-      <div class="jumbotron">
-	<div class="container">
-          <h1>Hello, world!</h1>
-          <p>This is a template for a simple marketing or informational 
-	    website. It includes a large callout called a jumbotron and three 
-	    supporting pieces of content. Use it as a starting point to create 
-	    something more unique.</p>
-          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
+    
+    <!-- Test -->
+    <!-- ==== -->
+    <div id="hello">
+      <div class="container">
+	<div class="row">
+	  <div class="col-lg-8 col-lg-offset-2 centered">
+	    <h1>Bolt Theme</h1>
+	    <h2>FREE BOOTSTRAP THEMES</h2>
+	  </div><!-- /col-lg-8 -->
+	</div><!-- /row -->
+      </div> <!-- /container -->
+    </div><!-- /hello -->
+    
+    <div id="green">
+      <div class="container">
+	<div class="row">
+	  <div class="col-lg-5 centered">
+	    <img src="assets/img/iphone.png" alt="">
+	  </div>
+	  
+	  <div class="col-lg-7 centered">
+	    <h3>WHAT WE CAN DO?</h3>
+	    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+	  </div>
 	</div>
       </div>
+    </div>
 
+
+    <!-- Test Cariusel -->
+    <!-- ============= -->
+    <div class="fullscreen">
+      <div class="row">
+	<div class="span9">
+	  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+	    <!-- Indicators -->
+	    <!-- ========== -->
+	    <ol class="carousel-indicators">
+	      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	      <li data-target="#myCarousel" data-slide-to="1"></li>
+	      <li data-target="#myCarousel" data-slide-to="2"></li>
+	    </ol>
+
+	    <!-- Wrapper for slides -->
+	    <!-- ================== -->
+	    <div class="carousel-inner">
+	      <div class="item active">
+		<img src="static/images/tedx_cuadrado_light.jpg" class="img-carousel">
+		<div class="carousel-caption">
+		  <div class="time">
+		    <div class="clock wow bounceInUp">
+		      <div id="days" class="timer_box"></div>
+		      <div id="hours" class="timer_box"></div>
+		      <div id="minutes" class="timer_box"></div>
+		      <div id="seconds" class="timer_box"></div>
+		    </div><!--/ clock -->
+		  </div>
+		</div>
+	      </div>
+	      <div class="item">
+		<img src="static/images/ted_abc_light.jpg" class="img-carousel">
+		<div class="carousel-caption">
+		  <div class="time">
+		    <div class="clock wow bounceInUp">
+		      <div id="days" class="timer_box"></div>
+		      <div id="hours" class="timer_box"></div>
+		      <div id="minutes" class="timer_box"></div>
+		      <div id="seconds" class="timer_box"></div>
+		    </div><!--/ clock -->
+		  </div>
+		</div>
+	      </div>
+	      <div class="item">
+		<img src="static/images/ted_xxx_light.jpg" class="img-carousel">
+		<div class="carousel-caption">
+		  <h4>Third label</h4>
+		  <p>Take note of the 'active' and 'slide' classes.</p>
+		</div>
+	      </div>
+	    </div>
+
+	    <!-- Controls -->
+	    <!-- ======== -->
+	    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+	      <span class="glyphicon glyphicon-chevron-left"></span>
+	    </a>
+	    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+	      <span class="glyphicon glyphicon-chevron-right"></span>
+	    </a>
+	  </div><!--/ myCarousel -->
+	</div><!--/ sapn9 -->
+      </div><!--/ row-fluid -->
+    </div>
+    
+    <script>
+      $('#myCarousel').carousel();
+    </script>
 
     <!-- footer start -->
     <!-- ================ -->
@@ -193,7 +269,7 @@ Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
 	  <div class="container">
 	    <div class="row">
 	      <div class="col-md-12">
-		<p>Crafted with <i class="fa fa-heart"></i> by <a target="_blank" href="https://twitter.com/fnbellomo">Franco N. Bellomo</a></p>
+		<p>Crafted with <i class="fa fa-heart"></i> by Franco N. Bellomo</p>
 	      </div>
 	    </div>
 	  </div>
@@ -203,12 +279,16 @@ Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
 
     </footer>
     <!-- footer end -->
-
+    
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/bootstrap-3.3.4/js/bootstrap.js"></script>
     <script src="static/js/custom.js"></script>
+    <script src="static/js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
 
   </body>
 </html>
