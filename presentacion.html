@@ -47,99 +47,239 @@
 	  
 	  <!-- logo -->
 	  <a class="navbar-brand logo-img">
-            <img src="static/images/logo.png" class="img-responsive" alt="Responsive image">
+            <img src="static/images/logo_negro.png" class="img-responsive" alt="Responsive image">
 	  </a>
 
 	  
 	</div><!--/ navbar-header -->
 	<div class="collapse navbar-collapse" id="myNavbar">
 	  <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Page 1</a></li>
-            <li><a href="#">Page 2</a></li>
-            <li><a href="#">Page 3</a></li>
+            <li><a href="#">Inicio</a></li>
+	    <li class="active"><a href="#equipo">Equipo</a></li>
+            <li><a href="#footer">Contactos</a></li>
+            <li><a href="#tedx">¿Qué es TEDx?</a></li>
+            <li><a href="#ted">¿Qué es TED?</a></li>
 	  </ul>
 	</div><!--/ collapse navbar-collapse -->
       </div><!--/ container-fluid -->
     </nav>
 
 	
-    <!-- Main -->
-    <!-- ==== -->
-    <div class="jumbotron cover-presen">
+    <!-- Cover -->
+    <!-- ===== -->
+    <div class="jumbotron cover">
       <div class="container">
-
-	<div class="hidden-xs">
-          <h1>Presentación</h1>
-	</div><!--/ hidden-xs -->
-	
-	<div class="visible-xs">
-          <h1>Presentación</h1>
-	</div><!--/ hidden-xs -->
-	
+	<div class="timer">
+          <h1 style="margin-top: 80px;" >
+	    <b>PROXIMAMENTE</b>
+	  </h1>
+	  <div class="clock hidden-xs">
+            <div id="days" class="timer_box"></div>
+            <div id="hours" class="timer_box"></div>
+            <div id="minutes" class="timer_box"></div>
+            <div id="seconds" class="timer_box"></div>
+	  </div><!--/ clock -->
+	</div><!--/ timer -->
       </div><!--/ container -->
-    </div><!--/ jumbotron cover -->
+    </div>
+    <!--/jumbotron cover -->
+    <!--/=============== -->
 
-    <!-- Presentacion -->
-    <!-- ============ -->
-    <div class="presentacion">
+
+    <!-- Anuncio -->
+    <!-- ======= -->
+    <div class="anuncio">
+      <div clas="container">
+	<h2>¿Queres ser <b>auspiciante</b> de TEDx Río Cuarto?</h2>
+	<h3><a href="#footer">Contactanos!</a></h3>
+      </div><!--/ container -->
+    </div>
+    <!--/anuncio -->
+    <!--/======= -->
+
+
+    <!-- ¿Por que TED y TEDx? -->
+    <!-- ==================== -->
+    <div id="ted" class="definicion">
       <div class="container">
-	
-	<div class="row">
-	  <div class="col-md-6">
-	    <div class="box">
-	      <h2>¿Que es <b>TED</b>?</h2>
+
+	<div class="ted">
+	  <div class="row">
+	    <div class="col-xs-12 col-md-6">
+	      <h1>¿Qué es TED?</h1>
 	      <p>TED es una organización sin fines de lucro cuyo objetivo es la difusión de ideas mediante exposiciones orales breves. El origen de TED se ubica en 1984, en Estados Unidos como una conferencia de Tecnología, Entretenimiento y Diseño.
-		Hoy TED es un colectivo de identificación para todos aquellos que buscan una comprensión profunda del mundo y creen, de manera apasionada y ferviente, en el poder de las ideas como motor de cambio para la vida, o...el mundo. Actualmente TED representa también un centro de intercambio de conocimiento libre entre gran diversidad de pensadores y todos aquellos que se identifiquen a si mismos como curiosos, y que pretenden relacionarse con nuevas ideas y modos de ver el mundo.
-	      </p>
-	      <h2>¿Y <b>TEDx</b>?</h2>
-	      <p> TED dio origen a TEDx. Se trata de eventos de organización independiente que siguen la misma línea y principios que TED. La realización de TEDx Rio Cuarto busca generar una instancia de colaboración abierta y con un equipo coordinador, que tenga como fin brindar un servicio a la comunidad local.
-	      </p>
-	    </div><!--/ box -->
-	  </div><!--/ col-md-6 -->
-	  <div class="col-md-6">
-	    <img src="static/images/ted_abc_light.jpg" class="img-responsive" alt="Responsive image"></img>
-	  </div><!--/ col-md-6 -->	  
-	</div><!--/ row -->
+		Hoy TED es un colectivo de identificación para todos aquellos que buscan una comprensión profunda del mundo y creen, de manera apasionada y ferviente, en el poder de las ideas como motor de cambio para la vida, o...el mundo. Actualmente TED representa también un centro de intercambio de conocimiento libre entre gran diversidad de pensadores y todos aquellos que se identifiquen a si mismos como curiosos, y que pretenden relacionarse con nuevas ideas y modos de ver el mundo.</p>
+	    </div><!--/col-xs-12 -->
+	    <div class="col-xs-12 col-md-6">
+	      <img alt="ted_abc" class="img-responsive" src="static/images/ted_abc_light.jpg"></img>
+	    </div><!--/col-xs-12 -->
+	  </div><!--/row -->
+	</div><!--/ted -->
 
-	<div class="row">
-	  <div class="col-md-6">
-	    <img src="static/images/ted_xxx_light.jpg" class="img-responsive" alt="Responsive image"></img>
-	  </div><!--/ col-md-6 -->
-	  <div class="col-md-6">
-	    <div class="box">
-	      <h2>Quines Somos</h2>
-	      <p>Somos un grupo independiente y heterogéneo constituido por científicos, ingenieros, artistas, diseñadores y comunicadores que se encuentra organizando la primera charla TEDx de la ciudad de Río Cuarto.
-	      </p>
-	      <h2>Por que lo hacemos</h2>
-	      <p>Porque creemos en el ideario propuesto por la organización TED y en la difusión de ideas innovadoras que promuevan el compromiso, el cambio y la superación de los distintos ámbitos de nuestra sociedad, acciones que contribuyen al desarrollo de las ideas tanto locales como de afuera.
-	      </p>
-	    </div><!--/ box -->
-	  </div><!--/ col-md-6 -->	  
-	</div><!--/ row -->
-
-	<div class="row">
-	  <div class="col-md-6">
-	    <div class="box">
-	      <h2><b>TEDx</b> Río Cuarto</h2>
-	      <p>Fecha aproximada octubre de 2015. 
-		Transmisión vía internet.
-		Oradores de diversas especialidades. 
-		Actividades públicas previas y posteriores al evento.
-		Publicidades en variados medios de comunicación.
-		Importantes sponsores y auspiciantes.
-	      </p>
-	    </div><!--/ box -->
-	  </div><!--/ col-md-6 -->
-	  <div class="col-md-6">
-	    <img src="static/images/tedx_cuadrado_light.jpg" class="img-responsive" alt="Responsive image"></img>
-	  </div><!--/ col-md-6 -->	  
-	</div><!--/ row -->
+	<div id="tedx" class="tedx">
+	  <div class="row">
+	    <div class="col-xs-12 col-md-6">
+	      <img alt="ted_xxx" class="img-responsive" src="static/images/ted_xxx_light.jpg"></img>
+	    </div><!--/col-xs-12 -->
+	    <div class="col-xs-12 col-md-6">
+	      <h1>¿Y TEDx?</h1>
+	      <p> TED dio origen a TEDx. Se trata de eventos de organización independiente que siguen la misma línea y principios que TED. La realización de TEDx Rio Cuarto busca generar una instancia de colaboración abierta y con un equipo coordinador, que tenga como fin brindar un servicio a la comunidad local.</p>
+	      <h2>Por qué lo hacemos</h2>
+	      <p>Porque creemos en el ideario propuesto por la organización TED y en la difusión de ideas innovadoras que promuevan el compromiso, el cambio y la superación de los distintos ámbitos de nuestra sociedad, acciones que contribuyen al desarrollo de las ideas tanto locales como de afuera.</p>	      
+	    </div><!--/col-xs-12 -->
+	  </div><!--/row -->
+	</div><!--/tedx -->
 	
-      </div><!--/ container -->
-    </div><!--/ presentacion -->
+      </div><!--/container -->
+    </div>
+    <!--/definicion -->
+    <!--/========== -->
+    
 
+    <!-- Integrantes -->
+    <!-- =========== -->
+    <div id="equipo" class="integrantes">
+      <div class="container-fluid">
 
+	<h1>Quiénes somos</h1>
+	<h3>Somos un grupo independiente y heterogéneo constituido por científicos, ingenieros, artistas, diseñadores y comunicadores que se encuentra organizando la primera charla TEDx de la ciudad de Río Cuarto.</h3>
+	
+	<div class="row">
+	  <!-- Ham -->
+	  <!-- === -->
+	  <div class="col-xs-12 col-sm-6 col-md-3">
+	    <div class="box">
+	      <img alt="Ham" class="img-responsive" src="static/images/grupo/ham.jpg"></img>
+	      <h1>Ham</h1>
+	      <div class="descripcion">
+		<p>Ham Khan, humorista grafico, pianista, trompetista, bartender, malabarista, guitarista, fabricante de titeres, actor, escritor, guionista, Transport Captain en la pelicula La Mission, animador, depresivo feliz.</p>
+	      </div><!--/descripcion -->
+	    </div><!--/box -->
+	  </div><!--/col-xs-12 -->
+
+	  <!-- Pili -->
+	  <!-- ==== -->
+	  <div class="col-xs-12 col-sm-6 col-md-3">
+	    <div class="box">
+	      <img alt="Pili" class="img-responsive" src="static/images/grupo/pili.jpg"></img>
+	      <h1>Pili</h1>
+	      <div class="descripcion">
+		<p>Soy una persona que se anima a nuevos desafíos, cautelosa y meticulosa. Busco todas las alternativas de acción posible para lograr conseguir lo que me he propuesto. Responsable, respetuosa y asumo, (por supuesto que me cuesta -¿a quién no?-), mis defectos y errores.</p>
+	      </div><!--/descripcion -->
+	    </div><!--/box -->
+	  </div><!--/col-xs-12 -->
+
+	  <!-- Lucas -->
+	  <!-- ===== -->
+	  <div class="col-xs-12 col-sm-6 col-md-3">
+	    <div class="box">
+	      <img alt="Lucas" class="img-responsive" src="static/images/grupo/lucas.png"></img>
+	      <h1>Lucas</h1>
+	      <div class="descripcion">
+		<p>Ham Khan, humorista grafico, pianista, trompetista, bartender, malabarista, guitarista, fabricante de titeres, actor, escritor, guionista, Transport Captain en la pelicula La Mission, animador, depresivo feliz.</p>
+	      </div><!--/descripcion -->
+	    </div><!--/box -->
+	  </div><!--/col-xs-12 -->
+
+	  <!-- Martin -->
+	  <!-- ====== -->
+	  <div class="col-xs-12 col-sm-6 col-md-3">
+	    <div class="box">
+	      <img alt="Martin" class="img-responsive" src="static/images/grupo/pregunta.jpeg"></img>
+	      <h1>Martin</h1>
+	      <div class="descripcion">
+		<p>Soy una persona que se anima a nuevos desafíos, cautelosa y meticulosa. Busco todas las alternativas de acción posible para lograr conseguir lo que me he propuesto. Responsable, respetuosa y asumo, (por supuesto que me cuesta -¿a quién no?-), mis defectos y errores.</p>
+	      </div><!--/descripcion -->
+	    </div><!--/box -->
+	  </div><!--/col-xs-12 -->
+	  
+	</div><!--/row -->
+	<div class="row">
+  
+	  <!-- Manu -->
+	  <!-- ====== -->
+	  <div class="col-xs-12 col-sm-6 col-md-3">
+	    <div class="box">
+	      <img alt="Manu" class="img-responsive" src="static/images/grupo/pregunta.jpeg"></img>
+	      <h1>Manu</h1>
+	      <div class="descripcion">
+		<p>Soy una persona que se anima a nuevos desafíos, cautelosa y meticulosa. Busco todas las alternativas de acción posible para lograr conseguir lo que me he propuesto. Responsable, respetuosa y asumo, (por supuesto que me cuesta -¿a quién no?-), mis defectos y errores.</p>
+	      </div><!--/descripcion -->
+	    </div><!--/box -->
+	  </div><!--/col-xs-12 -->
+
+	  <!-- Franco -->
+	  <!-- ====== -->
+	  <div class="col-xs-12 col-sm-6 col-md-3">
+	    <div class="box">
+	      <img alt="Franco" class="img-responsive" src="static/images/grupo/f=mc2.jpg"></img>
+	      <h1>Franco</h1>
+	      <div class="descripcion">
+		<p>Soy una persona que se anima a nuevos desafíos, cautelosa y meticulosa. Busco todas las alternativas de acción posible para lograr conseguir lo que me he propuesto. Responsable, respetuosa y asumo, (por supuesto que me cuesta -¿a quién no?-), mis defectos y errores.</p>
+	      </div><!--/descripcion -->
+	    </div><!--/box -->
+	  </div><!--/col-xs-12 -->
+
+	  <!-- Feli -->
+	  <!-- ====== -->
+	  <div class="col-xs-12 col-sm-6 col-md-3">
+	    <div class="box">
+	      <img alt="Feli" class="img-responsive" src="static/images/grupo/pregunta.jpeg"></img>
+	      <h1>Feli</h1>
+	      <div class="descripcion">
+		<p>Soy una persona que se anima a nuevos desafíos, cautelosa y meticulosa. Busco todas las alternativas de acción posible para lograr conseguir lo que me he propuesto. Responsable, respetuosa y asumo, (por supuesto que me cuesta -¿a quién no?-), mis defectos y errores.</p>
+	      </div><!--/descripcion -->
+	    </div><!--/box -->
+	  </div><!--/col-xs-12 -->	  
+
+	  <!-- Romina -->
+	  <!-- ====== -->
+	  <div class="col-xs-12 col-sm-6 col-md-3">
+	    <div class="box">
+	      <img alt="Romina" class="img-responsive" src="static/images/grupo/pregunta.jpeg"></img>
+	      <h1>Romina</h1>
+	      <div class="descripcion">
+		<p>Soy una persona que se anima a nuevos desafíos, cautelosa y meticulosa. Busco todas las alternativas de acción posible para lograr conseguir lo que me he propuesto. Responsable, respetuosa y asumo, (por supuesto que me cuesta -¿a quién no?-), mis defectos y errores.</p>
+	      </div><!--/descripcion -->
+	    </div><!--/box -->
+	  </div><!--/col-xs-12 -->
+	  
+	</div><!--/row -->
+	<div class="row">
+
+	  <!-- Victoria -->
+	  <!-- ====== -->
+	  <div class="col-xs-12 col-sm-6 col-md-offset-3 col-md-3">
+	    <div class="box">
+	      <img alt="Raul" class="img-responsive" src="static/images/grupo/raul.jpg"></img>
+	      <h1>Raul</h1>
+	      <div class="descripcion">
+		<p>Raúl Rubio. 24 años.
+Técnico electromecánico. Estudiante de Lic. en Física. Historietista.</p>
+	      </div><!--/descripcion -->
+	    </div><!--/box -->
+	  </div><!--/col-xs-12 -->
+
+	  <!-- Victoria -->
+	  <!-- ====== -->
+	  <div class="col-xs-12 col-sm-6 col-md-3">
+	    <div class="box">
+	      <img alt="Victoria" class="img-responsive" src="static/images/grupo/pregunta.jpeg"></img>
+	      <h1>Victoria</h1>
+	      <div class="descripcion">
+		<p>Soy una persona que se anima a nuevos desafíos, cautelosa y meticulosa. Busco todas las alternativas de acción posible para lograr conseguir lo que me he propuesto. Responsable, respetuosa y asumo, (por supuesto que me cuesta -¿a quién no?-), mis defectos y errores.</p>
+	      </div><!--/descripcion -->
+	    </div><!--/box -->
+	  </div><!--/col-xs-12 -->
+	  
+	</div><!--/row -->
+    
+      </div><!--/container -->
+    </div>
+    <!--/integrantes -->
+    <!--/=========== -->
+    
+    
     <!-- footer start -->
     <!-- ================ -->
     <footer id="footer">
@@ -149,57 +289,21 @@
       <div class="footer section">
 	<div class="container">
 	  <h1 class="title text-center" id="contact">Contactanos</h1>
-	  <div class="space"></div>
-	  <div class="row">
-	    
-	      <div class="col-sm-6">
-		<div class="footer-content">
-		  <p class="large">Si queres colaborar en la organización, tenes alguna idea, queres ser sponsor, proponer algún spyker o alguna otra idea, escribinos!!!</p>
-		  <ul class="list-icons">
-		    <li><i class="fa fa-map-marker pr-10"></i> One infinity loop, 54100</li>
-		    <li><i class="fa fa-phone pr-10"></i> +00 1234567890</li>
-		    <li><i class="fa fa-fax pr-10"></i> +00 1234567891 </li>
-		    <li><i class="fa fa-envelope-o pr-10"></i> your@email.com</li>
-		  </ul>
-		  <ul class="social-links">
-		    <li class="facebook"><a target="_blank" href="https://www.facebook.com/pages/HtmlCoder/714570988650168"><i class="fa fa-facebook"></i></a></li>
-		    <li class="twitter"><a target="_blank" href="https://twitter.com/HtmlcoderMe"><i class="fa fa-twitter"></i></a></li>
-		    <li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
-		    <li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
-		    <li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
-		    <li class="youtube"><a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube"></i></a></li>
-		    <li class="flickr"><a target="_blank" href="http://www.flickr.com"><i class="fa fa-flickr"></i></a></li>
-		    <li class="pinterest"><a target="_blank" href="http://www.pinterest.com"><i class="fa fa-pinterest"></i></a></li>
-		  </ul>
-		</div>
-	      </div>
-	      
-	      <div class="col-sm-6">
-		<div class="footer-content">
-		  <form role="form" id="footer-form">
-		    <div class="form-group has-feedback">
-		      <label class="sr-only" for="name2">Name</label>
-		      <input type="text" class="form-control" id="name2" placeholder="Name" name="name2" required>
-		      <i class="fa fa-user form-control-feedback"></i>
-		    </div>
-		    <div class="form-group has-feedback">
-		      <label class="sr-only" for="email2">Email address</label>
-		      <input type="email" class="form-control" id="email2" placeholder="Enter email" name="email2" required>
-		      <i class="fa fa-envelope form-control-feedback"></i>
-		    </div>
-		    <div class="form-group has-feedback">
-		      <label class="sr-only" for="message2">Message</label>
-		      <textarea class="form-control" rows="8" id="message2" placeholder="Message" name="message2" required></textarea>
-		      <i class="fa fa-pencil form-control-feedback"></i>
-		    </div>
-		    <input type="submit" value="Send" class="btn btn-default">
-		  </form>
-		</div>
-	      </div>
 
-	  </div>
-	</div>
-      </div>
+
+	  <ul class="social-links">
+	    <li class="facebook"><a target="_blank" href="https://www.facebook.com/pages/HtmlCoder/714570988650168"><i class="fa fa-facebook"></i></a></li>
+	    <li class="twitter"><a target="_blank" href="https://twitter.com/HtmlcoderMe"><i class="fa fa-twitter"></i></a></li>
+	    <li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
+	    <li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
+	    <li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+	    <li class="youtube"><a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube"></i></a></li>
+	    <li class="flickr"><a target="_blank" href="http://www.flickr.com"><i class="fa fa-flickr"></i></a></li>
+	    <li class="pinterest"><a target="_blank" href="http://www.pinterest.com"><i class="fa fa-pinterest"></i></a></li>
+	  </ul>
+
+	</div><!--/container -->
+      </div><!--/footer -->
       <!-- .footer end -->
 
       <!-- .subfooter start -->
