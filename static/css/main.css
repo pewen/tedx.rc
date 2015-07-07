@@ -1,12 +1,14 @@
 /* Personal CSS */
 
-/* Author: @fnabellomo */
+/* Authors: @fnabellomo
+            @Lisax525
+ */
 
 /****************************************
  * Base structure
  ****************************************/
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: Helvetica, Arial;
 }
 
 .site-name {
@@ -76,8 +78,9 @@ p {
 }
 
 .navbar-nav > li > a {
-    padding-left: 30px;
-    padding-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
 }
 /****************************************
  * Buttons
@@ -96,36 +99,16 @@ p {
 	-o-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
+
 .btn-default {
 	color: #55acee;
 	border: 1px solid #cccccc;
 }
+
 .btn-default:hover {
 	color: #ffffff;
 	background-color: #339BEB;
 	border-color: #339BEB;
-}
-
-/****************************************
- * Forms
- ****************************************/
-.form-control {
-    height: 45px;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
-}
-
-.form-control-feedback {
-    color: #cccccc;
-}
-
-.has-feedback label.sr-only ~ .form-control-feedback {
-    top: 15px;
-}
-
-textarea {
-    resize: vertical;
 }
 
 /****************************************
@@ -144,7 +127,7 @@ textarea {
 }
 
 .social-links li a {
-    color: #333333;
+    color: #fff;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
@@ -156,22 +139,6 @@ textarea {
     color: #55acee;
 }
 
-.social-links li.skype a:hover {
-    color: #00aff0;
-}
-
-.social-links li.linkedin a:hover {
-    color: #0976b4;
-}
-
-.social-links li.googleplus a:hover {
-    color: #dd4b39;
-}
-
-.social-links li.youtube a:hover {
-    color: #b31217;
-}
-
 .social-links li.flickr a:hover {
     color: #ff0084;
 }
@@ -180,25 +147,77 @@ textarea {
     color: #3b5998;
 }
 
-.social-links li.pinterest a:hover {
-    color: #cb2027;
+.social-links li.youtube a:hover {
+    color: #b31217;
 }
 
 /****************************************
- * Cover
+ * Cover Carousel
  ***************************************/
-.cover {
-    background: #fff url("../images/riocuartopuente.jpg") no-repeat fixed center center / cover;
+.carousel,
+.item,
+.active {
     height: 100%;
-    color: #fff;
 }
 
-.cover h1 {
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-inner .item {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption h1.hidden-xs {
+    margin-top: 5%;
     text-align: left;
+    padding-left: -30%;
+    font-size: 65px;
+}
+
+.carousel-caption h1.visible-sm {
+    margin-top: 15%;
+    text-align: left;
+    padding-left: 10%;
+    font-size: 40px;
+}
+
+.carousel-caption h1.visible-xs {
+    margin-top: 30%;
+    text-align: left;
+    padding-left: 10%;
+    font-size: 30px;
+}
+
+/* Background images */
+.ad1 {
+    background: url(../images/puente.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.ad2 {
+    background: url(../images/originales/fotos/IMG_1760.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.ad3 {
+    background: url(../images/originales/fotos/IMG_1765.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .clock {
-    padding-top: 150px;
+    padding-top: 120px;
+    text-align: center;
 }
 
 .timer_box {
@@ -219,121 +238,144 @@ textarea {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.timer_box p {
-    margin-top: 0px;
+.btn-success {
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10%;
+    white-space:normal !important;
+    max-width:100px;
+    box-shadow: 3px 3px 5px #000;
 }
 
 /****************************************
- * Cover-Presen
+ * Fondo
  ***************************************/
-.cover-presen {
-    background: #fff url("../images/logo_presen.jpg") no-repeat fixed center center / cover;
-    height: 100%;
-}
-
-.jumbotron {
-    margin-bottom: 0px;
-}
-
-.cover-presen .hidden-xs h1 {
-    margin-top:450px;
-    font-size:70px;
-}
-
-.cover-presen .visible-xs h1 {
-    margin-top:450px;
-    font-size:40px;
+.fondo {
+    background-image: url("../images/overlay3.svg"), linear-gradient(45deg, #9DC66B 20%, #4FA49A 40%, #4361C2);
+    padding-bottom: 50px;
 }
 
 /****************************************
  * Anuncio
  ***************************************/
 .anuncio {
-    background: #F5F5F5;
     text-aling: center;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
+.anuncio h2 {
+    color: #292636;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: -0.02em;
+    line-height: 1.3em;
+}
+
+.anuncio h3 {
+    font-size: 25px;
+    letter-spacing: -0.02em;
+    line-height: 1.6em;
+}
 /****************************************
  * Oradores
  ***************************************/
-.bs-example {
+.oradores {
     padding-top: 50px;
 }
 
 /****************************************
  * Ejemplos
  ***************************************/
-.ejemplos {
+.videos-ej {
     padding-top: 50px;
-    padding-bottom: 50px;
-    background: linear-gradient(45deg, #9DC66B 20%, #4FA49A 40%, #4361C2);
 }
 
 /****************************************
- * Definicion
+ * Por que TED y TEDx
  ***************************************/
-.definicion {
-    padding-top: 30px;
-    padding-bottom: 30px;
+#ted {
+    background-image: url("../images/creation.jpg");
+    width: 100%;
+    height: 700px;
+    padding-top : 100px;
+    padding-bottom: 100px;
 }
 
-.tedx {
-    padding-top: 100px;
+#tedx {
+    background-image: url("../images/creation-04.jpg");
+    width: 100%;
+    height: 700px;
+    padding-top : 100px;
 }
 
+.box-def {
+    background: #FFF none repeat scroll 0% 0%;
+    box-shadow: 3px 4px 15px -6px #000;
+    padding: 20px 25px;
+    position: relative;
+}
+
+.box-def h1 {
+    border-bottom: 1px solid #D4DFF6;
+    color: #292636;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: -0.02em;
+    line-height: 1.3em;
+    margin: 0px 0px 20px;
+    padding: 0px 15px 18px;
+}
+
+.box-def p {
+    color: #87818C;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    line-height: 1.6em;
+    padding: 0px 15px;
+}
 /****************************************
  * Integrantes
  ***************************************/
 .integrantes {
-    background-image: url("../images/overlay3.svg"), linear-gradient(45deg, #9DC66B 30%, #4FA49A 70%, #4361C2);
+     background: linear-gradient(45deg, #9DC66B 40%, #4FA49A 80%, #4361C2);
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.box {
-    background: #FFF none repeat scroll 0% 0% padding-box;
-    text-align: center;
-    border-radius: 5px;
-    box-shadow: 0px 0px 3px #999;
-    font-family: Times, serif;
-    ont-weight: 600;
-    font-size: 20px;
-    color: #777;
-    padding-bottom: 5px;
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 30px;
+#equipo h1 {
+    color: #292636;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: -0.02em;
+    line-height: 1.3em;
 }
 
-.box img {
+#equipo h3 {
+    color: #292636;
+    font-size: 25px;
+    letter-spacing: -0.02em;
+    line-height: 1.6em;
+}
+
+.box-def img {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
-.box h1 {
-    margin-bottom: 0px;
-    margin-top: 10px;
-}
-
-.descripcion {
-    padding-top: 20px;
-}
-
 /****************************************
  * Footer
  ***************************************/
 .footer {
     padding-top: 50px;
     padding-botton: 50px;
+    background-color: #000;
+    color: #fff;
 }
 
 .subfooter {
     padding-top: 20px;
-    background-color: #74cfae;
+    background: linear-gradient(45deg, #9DC66B 40%, #4FA49A 80%, #4361C2);
 }
 
 .subfooter p {
