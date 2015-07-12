@@ -370,9 +370,6 @@ p {
 .auspiciantes {
     background-color: rgba(255,255,255,0.5);
     padding: 0px 20px 20px;
-}
-
-.carousel-caption h1, h2, h3 {
     text-align: left;
     font-weight: bold;
     text-transform: uppercase;
