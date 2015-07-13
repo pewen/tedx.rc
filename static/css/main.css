@@ -303,7 +303,8 @@ p {
 }
 
 #tedx {
-    background-image: url("../images/creation-04.jpg");
+    background-color: rgb(0, 0, 0);
+    background-image: url("../images/originales/Esta_llegando_edit.png");
     width: 100%;
     height: 700px;
     padding-top : 100px;
