@@ -512,9 +512,7 @@ p {
 }
 
 .avalan img.img-responsive {
-    max-width: 100%;
-    margin-right: auto;
-    margin-left: auto;
+    max-width: 50%;
 }
 
 .diamond img.img-responsive {
