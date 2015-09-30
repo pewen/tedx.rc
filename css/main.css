@@ -340,6 +340,7 @@ p {
 }
 
 .talk_grid_bottom {
+    padding-bottom: 3px
 }
 
 .talk_grid {
@@ -463,6 +464,10 @@ p {
     font-weight: bold;
     letter-spacing: -0.02em;
     line-height: 1.6em;
+}
+
+#equipo h4 {
+    text-align: center;
 }
 
 .box-def img {
