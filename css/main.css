@@ -326,10 +326,40 @@ p {
 /****************************************
  * Oradores
  ***************************************/
-.oradores {
-    padding-top: 50px;
+.box-speakers{
+    background: #FFF none repeat scroll 0% 0%;
+    box-shadow: 3px 4px 15px -6px #000;
+    margin-top: 20px;
+    padding: 20px 25px;
+    position: relative;
 }
 
+.box-speakers h1 {
+    color: #292636;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -0.02em;
+    line-height: 1.3em;
+    margin: 0px 0px 20px;
+    border-bottom: 1px solid #D4DFF6;
+    padding: 0px 15px 18px;
+}
+
+.box-speakers h4 {
+    font-weight: bold;
+}
+
+.box-speakers p {
+    color: #87818C;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    line-height: 1.6em;
+    padding: 0px 15px;
+}
+
+/****************************************
+ * Ejemplos
+ ***************************************/
 .talk_grid_top {
     padding-top: 30px;
 }
