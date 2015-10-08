@@ -16,14 +16,14 @@ body {
 }
 
 html, body {
-  height: 100%;
+    height: 100%;
 }
 
 body {
-  font-size: 15px;
-  line-height: 1.50;
-  color: #333333;
-  text-align: center;
+    font-size: 15px;
+    line-height: 1.50;
+    color: #333333;
+    text-align: center;
 }
 
 .list-icons {
@@ -84,29 +84,33 @@ p {
  * Buttons
  ****************************************/
 .btn {
-	padding: 8px 15px;
-	font-size: 14px;
-	line-height: 1.42857143;
-	min-width: 160px;
-	text-align: center;
-	border-radius: 0;
-	text-transform: uppercase;
-	-webkit-transition: all 0.2s ease-in-out;
-	-moz-transition: all 0.2s ease-in-out;
-	-ms-transition: all 0.2s ease-in-out;
-	-o-transition: all 0.2s ease-in-out;
-	transition: all 0.2s ease-in-out;
+    padding: 8px 15px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    min-width: 160px;
+    text-align: center;
+    border-radius: 0;
+    text-transform: uppercase;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .btn-default {
-	color: #55acee;
-	border: 1px solid #cccccc;
+    color: #55acee;
+    border: 1px solid #cccccc;
 }
 
 .btn-default:hover {
-	color: #ffffff;
-	background-color: #339BEB;
-	border-color: #339BEB;
+    color: #ffffff;
+    background-color: #339BEB;
+    border-color: #339BEB;
+}
+
+.btn-online {
+    font-size: 20px;
 }
 
 /****************************************
@@ -480,62 +484,18 @@ p {
  * Auspiciantes
  ***************************************/
 .auspiciantes {
-    background-color: rgba(255,255,255,0.5);
     text-align: left;
-    padding-top: 5px;
+    padding-top: 80px;
     padding-bottom: 5px;
     font-size: 50px;
 }
 
 .auspiciantes h1 {
+    color: #e62b1e;
     font-weight: bold;
     padding-bottom: 10px;
     padding-left: 10px;
-}
-
-.aus {
-    width: 100%;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    font-family: "Cabin","Helvetica Neue","Helvetica",sans-serif;
-}
-
-.aval-img {
-    background-image: url("../img/auspiciantes/plaza.jpg");
-}
-
-.diamond-img {
-    background-image: url("../img/auspiciantes/reja.jpg");
-}
-
-.platinum-img {
-    background-image: url("../img/auspiciantes/plaza.jpg");
-}
-
-.gold-img {
-    background-image: url("../img/auspiciantes/tedx.jpg");
-}
-
-.avalan img.img-responsive {
-    max-width: 50%;
-}
-
-.diamond img.img-responsive {
-    max-width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.platinum img.img-responsive {
-    max-width: 60%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.dorado img.img-responsive {
-    max-width: 60%;
-    margin-right: auto;
-    margin-left: auto;
+    border-bottom: 2px solid #e62b1e;
 }
 
 
