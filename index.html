@@ -9,73 +9,27 @@ offset: [0, 3, 6]
 ---
 
 {% include cover_carousel.html %}
-{% include anuncio_auspiciante.html %}
 
 <!-- Speakers -->
 <!-- ======== -->
-<div class="oradores">
-  <div class="container-fluid">
-
+<div class="principal">
+  <div class="container">
     <div class="col-sm-9">
       <section>
-	<h2 class="header-hidden">Oradores</h2>
+	<div class="box-def wow bounceInLeft animated color_tedx" style="margin-top:120px;">
+	  <h2>¡Buscamos Oradores!</h2>
+	  <p style="font-size: 20px;">Felizmente anunciamos que ya esta en marcha la organización de la segunda <strong>TEDx</strong><b>RíoCuarto</b> 2016 y estamos buscando oradores. ¿Tenes una idea para compartir con la comunidad? ¿Queres compartir tu historia de vida? ¿Tenes una idea para cambiar al mundo? Si es así, completa el siguiente formulario y postulate para ser un orador de la <strong>TEDx</strong><b>RíoCaurto</b> 2016</p>
+	  <button type="button" class="btn btn-primary" disabled="disabled">Formulario para Oradores</button>
+	</div><!--/box-def -->
 
-	{% for off in page.offset %}
-	<div class="row">
-	  {% for speaker in site.data.speakers limit:3 offset:off %}
-	  <div class="col-sm-4 col-md-4 {% if off == 6 %} col-md-offset-4 col-sm-offset-4 {% endif %}">
-	    <div class="box-speakers">
-	      <h3 class="header-hidden">{{ speaker.nombre }}</h3>
-	      <img src="/img/oradores/{{ speaker.img }}" class="img-responsive" alt="{{ speaker.nombre}}">
-	      <h4>{{ speaker.charla }}</h4>
+	<div class="box-def wow bounceInLeft animated color_tedx" style="margin-top:160px;">
+	  <h2>¿Queres ser auspiciante de la <strong>TEDx</strong><b>RíoCuarto</b>?</h2>
+	  <p style="font-size: 20px;">Buscamos empresas, organizaciones e instituciones que compartan las ideas que <strong>TEDx</strong> representa y nos ayuden para poder llevar adelante la segunda edición de la <strong>TEDx</strong><b>RíoCuarto</b>.</p>
+	  <a href="#footer">
+	    <button type="button" class="btn btn-primary">Contactanos!</button>
+	  </a>
+	</div><!--/box-def -->
 
-
-	      <!-- Button trigger modal -->
-	      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#Modal-{{ forloop.index | plus:off}}">Clickeame!</button>
-
-	      <!-- Modal -->
-	      <div class="modal fade bs-example-modal-lg" id="Modal-{{ forloop.index  | plus:off}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-		<div class="modal-dialog" role="document">
-		  <div class="modal-content">
-		    <div class="modal-header">
-		      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			<span aria-hidden="true">×</span>
-		      </button>
-		      <p class="modal-title" id="myModalLabel">{{ speaker.nombre }}</p>
-		    </div><!--/modal-header -->
-		    <div class="modal-body">
-		      <div class="row">
-			<div class="col-md-4">
-			  <img src="/img/oradores/{{ speaker.img }}" class="img-responsive" alt="{{ speaker.img }}" style="padding-bottom: 20px;">
-
-			  {% if speaker.face %}
-			  <a target="_blank" href="{{ speaker.face }}"><i class="fa fa-facebook fa-2x"></i></a>
-			  {% endif %}
-			  {% if speaker.twitter %}
-			  <a target="_blank" href="{{ speaker.twitter }}"><i class="fa fa-twitter fa-2x"></i></a>
-			  {% endif %}
-			  
-			  
-			</div><!--/col-md-4 -->
-			<div class="col-md-8">
-			  <h4 class="header-hidden">Historia</h4>
-			  <p>{{ speaker.descripcion }}</p>
-			</div><!--/col-md-8 -->
-		      </div><!--/row -->
-		    </div><!--/modal-body -->
-		    <div class="modal-footer">
-		      <button type="button" class="btn btn-default" data-dismiss="modal">
-			Close
-		      </button>
-		    </div><!--/modal-footer -->
-		  </div><!--/modal-content -->
-		</div><!--/modal-dialog -->
-	      </div><!--/modal -->
-	    </div><!--/box-def -->
-	  </div><!--/col-md -->
-	  {% endfor %}
-	</div><!--/row -->
-	{% endfor %}
 	
       </section>
     </div><!--/col-sm-9 -->
@@ -88,15 +42,16 @@ offset: [0, 3, 6]
       </aside>
     </div><!--/col-sm-3 -->
     
-  </div><!--/container-fluid -->
-</div><!--/oradores -->
+  </div><!--/container -->
+</div><!--/principal -->
 
 
 <!-- Videos TEDx Ejemplo -->
 <!-- =================== -->
 <div class="talk_grid">
   <div class="container-fluid">
-    <h3>"Ideas que Cambian el Mundo"</h3>
+    <h3>"Ideas Que Vuelas"</h3>
+    <p style="font-size: 25px;">Reviví las ideas de la primera TEDxRíoCuarto 2015<p>
     
     <!-- Fila 1 -->
     <div class="row">

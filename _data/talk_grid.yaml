@@ -1,55 +1,58 @@
-- nombre: Andy Freire
-  charla: Cinco por Cineto
-  img:
-  img-charla: cinco.png
-  link: videos/cinco-por-ciento
-  descripcion: Andy Freire es Licenciado en Economía y emprendedor en el ámbito empresarial y social, co-fundó y lideró Officenet, la consultora Axialent y ahora forma parte de Restorando. Preside la Fundación Endeavor Argentina y es columnista de Telefé Noticias en donde comparte sus conocimientos, analiza y comenta casos exitosos que pueden servir como referencia e inspiración para todo interesado en emprender. Cuando tenía dieciocho años, Andy colaboró en la creación de la Fundación Iniciativa, una ONG apartidaria, sin fines de lucro ni lazos religiosos, que promovía la participación consciente de los jóvenes argentinos para desarrollar una sociedad democrática. Fue su primer emprendimiento y más de 10,000 estudiantes de entre 14 y 16 años participaron en eventos de la Fundación. Comenzó su carrera en Procter & Gamble, pero al año de recibirse con honores en la Universidad de San Andrés, fue uno de los responsables junto a Santiago Bilinkis, de crear Officenet, una compañía que revolucionó la industria de distribución de materiales de oficina en Latinoamérica. El caso de Officenet, “Cómo hacer que el emprendedorismo funcione en Argentina” fue publicado en Harvard Business School y enseñado en 25 universidades de las más prestigiosas del mundo. En 2002 fundó la consultora Axialent, que ayuda a alinear la cultura organizacional de las mayores empresas del mundo y que lo mantuvo como Chairman y CEO hasta diciembre 2011. Es Presidente de la Fundación Endeavor en Argentina, Presidente del Directorio de Young Presidents Organization (YPO), miembro del Comité latinoamericano del Foro Económico Mundial y uno de los cuatro jueces globales del Dell Business Excellence Award. Fue reconocido como “Líder Global del Mañana” en 2000 por el Foro Económico Mundial, “Emprendedor del año de Latinoamérica” en 2001 por la Fundación Endeavor y el “World Young Business Achiever” en 2002. Fue nombrado en el 2008 uno de los “100 Líderes Globales del Mundo” por el Foro Económico Mundial en Davos, Suiza. Su pasión por emprender lo define y lo motiva a ayudar a la gente a encontrar nuevos caminos en la búsqueda de hacer las cosas un poco mejor.
+- nombre: Lucas Aime
+  charla: El efecto del centésimo nerd
+  img: Aime.png
+  img-charla: lucas.jpg
+  link: videos/el-efecto-del-centésimo-nerd
+  face: https://www.facebook.com/lucas.aime/friends_mutual?pnref=eh
+  descripcion: Dibujante e historietista. Ha dictado numerosos cursos y talleres de dibujo y guión de historias. En noviembre del 2010 empezó a dibujar la tira semanal “Mi amiga Almendra” que se publicó en el semanario “El megáfono“ y luego de 2 años en blog Vuelo Digital.
 
-- nombre: Eduardo Saenz de Cabezon
-  charla: Las matematicas son para siempre
-  img:
-  img-charla: index.png
-  link: videos/las-matematicas-son-para-siempre
-  face:
-  descripcion: Eduardo Sáenz de Cabezón une la ciencia con el humor y los relatos. Es Licenciado en Teología y Doctor en Matemáticas, es autor de varias charlas divulgativas sobre su área que imparte en universidades y centros de educación secundaria. Es narrador oral para niños, jóvenes y adultos. Nació en Logroño, España, en 1972. Recibido en la Universidad Pontificia de Comillas, en 1996, además obtuvo su Licenciatura y Doctorado en Matemáticas en la Universidad de La Rioja. Ejerce como Profesor de las asignaturas Informática, Sistemas Informáticos, Matemática Discreta y Álgebra, en la Universidad de La Rioja, desde 2010. También es tutor de Trabajos de Grado y Maestría en las titulaciones de Informática y Matemáticas. Publicó artículos de investigación y es autor del show matemático “El baúl de Pitágoras”, que fue exhibido en teatros y bares en varias ciudades de España desde 2012. Ganó el concurso de monólogos científicos FameLab en España, 2013. Es uno de los fundadores del grupo de monologuistas científicos “The Big Van Theory” con más de 200 representaciones en España entre 2013 y 2014.
-  
-- nombre: Jose Luis Gallego
-  charla: Contando desde los margenes
-  img:
-  img-charla: cuento.png
-  link: videos/contando-desde-los-margenes
-  face:
-  descripcion: José Luis Gallego es narrador oral. Escribe cuentos y desarrolla el arte de relatar historias. Coordina talleres de cuenteros para niños de 5 a 10 años y en el Centro Universitario San Martín en la Unidad 48 del Penal de José León Suárez. Hijo de padres provenientes de Galicia, nació en Buenos Aires y en séptimo grado descubrió el gusto por la cuentería gracias a su maestro Juan Marcial Moreno. Se recibió de Redactor publicitario, trabajó en una imprenta, y desde 2001 retomó el oficio con pasión. Lleva espectáculos de títeres a salas de pediatría de hospitales del Conurbano como parte de la compañía Titiribióticos. Es miembro fundador de la compañía de cuenteros El viajecito de Felipe. Colaboró y condujo varios programas de radio, en “El Mono Cuentero Eléctrico Rojo” participaron los integrantes de sus talleres. Publicó “La existencia es mullidita” (2004) un libro de cuentos con soporte multimedia en donde se escucha su voz acompañado por efectos especiales, y “El Niño Miguita” (2008). Considera que la narración oral es una herramienta de igualación social y un estímulo para la creación.
+- nombre: Gustavo Gómez
+  charla: La justicia es demasiado importante para que este en manos de abogados
+  img: gustavo.png
+  img-charla: gustavo.jpg
+  link: videos/la-justicia-es-demasiado-importante-para-que-este-en-manos-de-abogados
+  grande: true
+  face: https://www.fiscalgomez.com.ar
+  twitter: https://twitter.com/fiscalgomez
+  descripcion: Fiscal General ante la Cámara Federal de Apelaciones de Tucumán, fiscal en la jurisdicción de Tucumán, Santiago del Estero y Catamarca. Autor de diversos artículos, comisionado por Parlamento de la Unión Europea para preparar un proyecto de creación de un Tribunal Penal Europeo e Internacional para los Delitos Ambientales; Director de la Delegación Tucumán de la Oficina de la Ufitco (oficina Delitos Económicos y Contrabando) Delegado de la Ufima (oficina delitos Ambientales) Integrante como jurado de concursos para el cargo de Fiscal y para concursos internacionales sobre medioambiente. Se especializó en la investigación de delitos ambientales y representa a la Argentina en la Red de Fiscales ambientales de América. Siendo Fiscal General de Tucumán llevó adelante investigaciones por delitos ambientales en mas de 100 causas entre las que se destacan el procesamiento de autoridades de distintas empresas como empresas mineras (La Alumbrera), citrícolas, papeleras, frigoríficos, ingenios, empresas dedicadas a la recolección de residuos, sanatorios, etc.
 
-- nombre: Sergio Feferovich
-  charla: La música de las ideas
-  img:
-  img-charla: fefe.png
-  link: videos/la-musica-de-las-ideas
-  face:
-  descripcion: Sergio Feferovich, Director de orquestas y coros en la Argentina y el exterior, desarrolla una intensa labor en diversos ámbitos académicos y se dedica a estimular la escucha de música, sobre todo entre el público infantil, partiendo de la base de que la sensibilidad y el disfrute del arte musical, es común en todos los chicos. Graduado en la Facultad de Bellas Artes de la Universidad Nacional de La Plata, Argentina, obtuvo su Doctorado en Música en la Johns Hopkins University (EEUU). También obtuvo títulos como Master en Dirección Orquestal del Peabody Conservatory en dicha universidad y Master en piano en la Catholic University of America (Washington, DC). Entre sus actividades se destaca la de Director de la Orquesta de Cámara del Municipio de Lanús, con la cual se presenta en salas y escuelas con los conciertos que incluyen un repertorio variado en cuanto a estilos, desde música clásica hasta contemporánea. Feferovich propone transmitir su amor por la música y enseñarla de una forma divertida y participativa para que niños y adultos se acerquen a ella sin prejuicios. Con esa idea desarrolló a través del concierto didáctico, el espectáculo “La vuelta al mundo en un violín” con una orquesta de cuerdas formada por músicos argentinos. Durante varios años fue director titular por concurso de la Orquesta Sinfónica Nacional de Honduras, además de actuar como director invitado con coros y orquestas de Argentina, el resto de América y Europa. Su carrera ha recibido numerosos reconocimientos. La Organización de Estados Americanos le otorgó una beca para realizar estudios de doctorado en música en Baltimore, EEUU y entre los premios más importantes, recibió una Distinción de la Honorable Cámara de Diputados de la Provincia de Buenos Aires “Por su aporte a la comunidad” y el Rotary Club de Avellaneda lo eligió como “Personalidad Destacada del año”. Además fue galardonado en 2010 con el premio YAMA (Young Artist Music Award), concedido por JMI (Jeunesse Musicale International, Bélgica).
+- nombre: Jesús Amaya
+  charla: Como no escribir un hit
+  img: jesus.jpg
+  img-charla: jesus.jpg
+  link: videos/como-no-escribir-un-hit
+  face: https://www.facebook.com/JESÚS-AMAYA-página-oficial-183121228408972/timeline/
+  descripcion: Es Guitarrista, Compositor y Arreglador de Río Cuarto. Amante de la Guitarra Clásica (a la que le suma pedales de efecto) y anarquista por naturaleza, Jesús ha sabido convertir “la viola“ en un canal de expresión de sus ideas y pensamientos más íntimos...Dicta clases de técnica, armonía, arreglos, improvisación y audio perceptiva tanto en guitarra como en otros instrumentos armónicos... Su único concepto
 
-- nombre: Emiliano Kargieman
-  charla: Hackeando el espacio
-  img:
-  img-charla: emiliano.png
-  link: videos/hackeando-el-espacio
-  face:
-  descripcion: Conocido por sus amigos como "EK", se ha pasado los últimos 20 años construyendo tecnología y empresas de tecnología. Dropout de Matemática y Filosofía, es más conocido por su trabajo pionero en la industria de seguridad de la información. A los 19 años, EK co-fundó Core Security Technologies, donde desarrolló el primer software automatizado de tests de penetración, ganando la confianza de clientes como Apple, Cisco, Homeland Security, NSA, NASA, Lockheed Martin y DARPA. Como co-fundador y director ejecutivo de la firma de capital de riesgo Aconcagua Ventures, EK se enfocó en identificar e invertir en startups de tecnología en América Latina para desarrollarlas como negocios globales. A lo largo de los años, Emiliano se ha dedicado a entender los desafíos de crear ecosistemas de innovación virtuosos en regiones en desarrollo, participando como asesor en diversas iniciativas públicas y privadas con este fin. En 2009, Emiliano co-fundó Garagelab, un laboratorio de resolución de problemas basado en un enfoque multidisciplinario que involucra la intersección de ciencia,arte, tecnología y negocios. En 2010, luego de una temporada inspiradora en el parque de tecnología de NASA Ames en California, Emiliano fundó Satellogic, con el objetivo de democratizar el acceso al espacio para todas las naciones y las personas del mundo. Emiliano estudió matemáticas y filosofía en la Universidad de Buenos Aires, tiene 36 años, y está casado con Pola, una novelista que comparte su pasión por la tecnología. Cuando no está pensando en tecnología, Emiliano dedica su tiempo a leer, escribir, jugar ajedrez y practicar algún deporte que cambia a los pocos meses (actualmente snowboard).
+- nombre: Luis Losinno
+  charla: La ilusión del conocimiento
+  img: Luis.png
+  img-charla: luis.jpg
+  link: videos/la-ilusión-del-conocimiento
+  face: https://www.facebook.com/luis.losinno?fref=ts
+  descripcion: Luís es Médico Veterinario; Doctor en Ciencias Veterinarias; Profesor Asociado Efectivo, Responsable de los cursos de Producción Equina I; Producción Equina II y Director del Laboratorio de Producción Equina Departamento de Producción Animal, Facultad de Agronomía y Veterinaria, Universidad Nacional de Río Cuarto, Argentina
 
-- nombre: Hernán Casciari
-  charla: Cómo matar al intermediario
-  img:
-  img-charla: casiari.png
-  link: videos/como-matar-al-intermediario
-  face:
-  descripcion: Hernán Casciari dirige la Editorial Orsai (www.editorialorsai.com) y es el escritor virtual más leído en habla hispana. En su etapa unplugged recibió el 1º Premio de Novela en la Bienal de Arte de Buenos Aires (1991) y el premio Juan Rulfo (París, 1998). Desde el año 2000 está radicado en Barcelona, desde donde ha escrito una serie de blogonovelas pioneras en la literatura por Internet. Ha publicado las novelas ‘El pibe que arruinaba las fotos’ y ‘Más respeto que soy tu madre’, recopilación de la historia virtual ‘Los Bertotti’, bitácora elegida como la mejor del mundo por la cadena alemana Deutsche Welle, que adaptó al teatro (con gran éxito) Antonio Gasalla; y los libros de relatos ‘España, decí alpiste’ y ‘El nuevo paraíso de los tontos’. Sus libros han sido traducidos a varios idiomas. Hasta septiembre de 2010, fue columnista de opinión en El País (España) y La Nación (Argentina), periódicos a los que renunció para embarcarse en un nuevo proyecto editorial propio "la Revista Orsai". En octubre de 2011 publicará, con su propia editorial, su último libro de relatos ‘Charlas con mi hemisferio derecho’.
+- nombre: Franco Morsino
+  charla: ¿Hacia dónde vas?
+  img: Franco.jpg
+  img-charla: franco.jpg
+  link: videos/hacia-donde-vas
+  grande: true
+  face: https://www.facebook.com/fmorsino1?fref=ts
+  descripcion: El poder de los sueños. Franco es Ingeniero Mecánico recibido en la Universidad Nacional de Río Cuarto. Becario del Programa ARFITEC y de la Fundación Roberto Rocca. En el año 2014 realizó el diseño de la carrocería de un vehículo 4x2 pensado para el Rally Dakar que ganó el concurso abierto presentado por la empresa nacional Paneus dedicada al desarrollo de vehículos off-road. La carrocería actualmente está en proceso de fabricación, además vive persiguiendo sus sueños.
 
-- nombre: Sofia Camussi
-  charla: No soy un 7
-  img:
-  img-charla: 7.png
-  link: videos/no-soy-un-7
-  face:
-  descripcion: ¿Qué efecto pueden tener las calificaciones escolares en los estudiantes? ¿Cómo influyen en las decisiones que tomamos sobre nuestro futuro? Sofia Camussi, con solo 18 años, nos cuenta cómo descubrió que es lo que realmente la apasionaba y qué pasó cuando lo hizo. Sofía vibra por la ciencia y el conocimiento. En el año 2014 participó del campamento científico “Expedición Ciencia”, donde descubrió una nueva manera de mirar el mundo. Tiene 18 años, vive en Rosario y cursa la escuela secundaria. Quiere ser investigadora cuando sea grande.
+- nombre: Juan Giacobone
+  charla: Las tres palas del molino
+  img: juan.png
+  img-charla: juan.jpg
+  link: videos/las-tres-palas-del-molino
+  superposicion: true
+  descripcion: Emprendedor tecnológico de las energías alternativas,Emprende la empresa GIACOBONE, inicialmente como una fábrica de roductos plásticos y matricería en general y desde el año 1982 se comienza a incursionar en las energías no convencionales, comenzando a fabricar desde esa fecha Generadores Eolicos de baja potencia, convertidores electrónicos de corriente y Reguladores de Tensión Desde el año 2000 se comienzan a fabricar también micro turbinas hidráulicas de baja potencia mediante un convenio suscripto con la Universidad Nacional de Río Cuarto – Departamento de Máquinas Térmicas.
 
+- nombre: Claudia Sciencia
+  charla: Cambiar la propia vida, cambiar el mundo
+  img: claudia.png
+  img-charla: claudia.jpg
+  link: videos/cambiar-la-propia-vida-cambiar-el-mundo
+  face: https://www.facebook.com/csciencia?fref=ts
+  descripcion: Es Comunicadora Social. Trabaja hasta hoy en el campo de la comunicación en distintas instituciones, actualmente en la Secretaría académica de la UNRC. Intrigada por la comunicación interpersonal para los vínculos participa en un encuentro de bio danza encontrando un nuevo modo de comunicación cara a cara. Se formó como facilitadora de Bio danza en 2012 y actualmente da clases en PEAM y AGD UNRC.
