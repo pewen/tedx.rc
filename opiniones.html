@@ -1,0 +1,58 @@
+---
+title: Opiniones
+layout: default
+imgs:
+  - "ad4"
+  - "ad7"
+  - "ad6"
+---
+
+{% include cover_carousel.html %}
+{% include anuncio_auspiciante.html %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-8 col-md-9">
+      <section>
+	<h2>Opiniones</h2>
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+	  /* * * CONFIGURATION VARIABLES * * */
+	  var disqus_shortname = 'tedxriocuarto';
+	  
+	  /* * * DON'T EDIT BELOW THIS LINE * * */
+	  (function() {
+	  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	  })();
+	</script>
+	<noscript>Please enable JavaScript to view the
+	  <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.
+	  </a>
+	</noscript>
+      </section>
+    </div><!--/col-md-9 -->
+
+    <div class="col-sm-4 col-md-3">
+      <aside>
+	<h2 class="header-hidden">Twitter TimeLine</h2>
+	{% include twitter.html %}
+      </aside>
+    </div><!--/col-md-3 -->
+
+  </div><!--/row -->
+</div><!--/container -->
+
+<script type="text/javascript">
+  /* * * CONFIGURATION VARIABLES * * */
+  var disqus_shortname = 'tedxriocuarto';
+  
+  /* * * DON'T EDIT BELOW THIS LINE * * */
+  (function () {
+  var s = document.createElement('script'); s.async = true;
+  s.type = 'text/javascript';
+  s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+  (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+  }());
+</script>

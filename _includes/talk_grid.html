@@ -1,0 +1,30 @@
+<div class="talk_grid_content">
+  <h4 class="header-hidden">Video de {{ talk.nombre }}</h4>
+  <a href="{{ site.baseurl }}{{ talk.link | prepend: site.url }}">
+    <img src="{{ site.baseurl }}img/grid_talks/{{ talk.img-charla }}">
+    <div class="talk_grid_overlay"></div>
+    <div class="talk_grid_details">
+
+      {% if talk.grande == null %}
+      <div class="talk_grid_speaker">
+	<p class="hidden-sm">{{ talk.nombre }}</p>
+	<p class="visible-sm">{{ talk.nombre }}</p>
+      </div><!--/talk_grid_speaker -->
+      <p class="talk_grid_title hidden-sm">{{ talk.charla }}</p>
+      <p class="talk_grid_title visible-sm">{{ talk.charla }}</p>
+
+      {% else %}
+      <div class="talk_grid_speaker">
+	<p>{{ talk.nombre }}</p>
+      </div><!--/talk_grid_speaker -->
+      <p class="talk_grid_title">{{ talk.charla }}</p>
+      {% endif %}
+      
+      <div class="talk_grid_supplementary">
+	<div class="talk_grid_description">
+	  <p>As different as we humans are from one another, we all age along the same great sequence, and the shared patterns of our lives pass into the pages of the books we love. In this moving talk, journalist Joshua Prager explores the stages of life through quotations from Norman Mailer, Joyce Carol Oates, William Trevor and other great writers, set to visualizations by graphic designer Milton Glaser. "Books tell us who we've been, who we are, who we will be, too," Prager says.</p>
+	</div><!--/talk_grid_description -->
+      </div><!--/talk_grid_supplementary -->
+    </div><!--/talk_grid_details -->
+  </a>
+</div><!--/talk_grid_content -->

@@ -1,0 +1,35 @@
+<!-- Navigation Bar -->
+<!-- ============== -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <header class="header-hidden">
+    <h2>Menú de Navegación</h2>
+  </header>
+
+  <div class="container-fluid" style="padding-top: 20px; padding-bottom: 20px;">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <!-- logo -->
+      <a class="navbar-brand logo-img">
+        <img src="/img/logo_negro_render.png" class="img-responsive hidden-xs" alt="Logo">
+	<img src="/img/logo_negro_render.png" class="img-responsive visible-xs" alt="Logo">
+      </a>
+      
+    </div><!--/ navbar-header -->
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="{{ site.url }}">INICIO</a></li>
+        <li><a href="{{ "presentacion#ted" | prepend: site.url }}">¿QUÉ ES TED?</a></li>
+        <li><a href="{{ "presentacion#tedx" | prepend: site.url }}">¿QUÉ ES TEDx?</a></li>
+	<li><a href="{{ "presentacion#equipo" | prepend: site.url }}">EQUIPO</a></li>
+	<li><a href="{{ "auspiciantes" | prepend: site.url }}">AUSPICIANTES</a></li>
+        <li><a href="{{ "opiniones" | prepend: site.url }}">OPINIONES</a></li>
+        <li><a href="#footer">CONTACTOS</a></li>
+      </ul>
+    </div><!--/ collapse navbar-collapse -->
+  </div><!--/ container-fluid -->
+</nav>
