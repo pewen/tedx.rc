@@ -8,8 +8,8 @@ author: "Franco N. Bellomo"
 
 # Server
 baseurl: ""
-#url: "http://tedxriocuarto.com.ar/"
-url: "http://127.0.0.1:4000/"
+url: "http://tedxriocuarto.com.ar/"
+#url: "http://127.0.0.1:4000/"
 
 # Time zone
 timezone: America/Argentina/Cordoba
