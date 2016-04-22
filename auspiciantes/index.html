@@ -1,0 +1,47 @@
+---
+title: Auspiciantes
+layout: default
+---
+
+<div class="fondo">
+  <div class="container auspiciantes">
+    <img src="/img/auspiciantes/TEDx_auspicio.png" class="img-responsive" alt="Logo"></img>
+    <div class="box-def">
+
+      <h2>Nos Auspician</h2>
+      <div class="row">
+	{% for auspiciante in site.data.auspiciantes %}
+	<div class="col-xs-12 col-sm-6 col-md-3 {% if forloop.last %} col-md-offset-4 col-sm-offset-3 {% endif %}">
+	  <h3 class="header-hidden">{{ auspiciante.nombre }}</h3>
+	  <a href="{{ auspiciantes.link }}">
+	    <img src="/img/auspiciantes/{{ auspiciante.img }}" class="img-responsive wow fadeIn animated" alt="{{ auspiciante.nombre }}" style="{% if forloop.index < 5 %} width: 60%; {% endif %}"></img>
+	  </a>
+	</div><!--/col-xs-12 col-sm-6 col-md-3 -->
+	{% endfor %}
+      </div><!--/row -->
+
+      <h2>Labs</h2>
+      <div class="row">
+	{% for lab in site.data.labs %}
+	<div class="col-xs-12 col-sm-6 col-md-3 {% if forloop.last %} col-md-offset-4 col-sm-offset-3 {% endif %}">
+	  <h3 class="header-hidden">{{ lab.nombre }}</h3>
+	  <a href="{{ lab.link }}">
+	    <img src="/img/auspiciantes/{{ lab.img }}" class="img-responsive wow fadeIn animated" alt="{{ lab.nombre }}"></img>
+	  </a>
+	</div><!--/col-md-3 -->
+	{% endfor %}
+      </div><!--/row -->
+
+      <h2>Declarada de Interés por</h2>
+      <div class="row">
+	<div class=" col-md-3  col-md-offset-4 ">
+	  <h3 class="header-hidden">Legislatura de Córdoba</h3>
+	  <a href="http://www.legiscba.gob.ar/">
+	    <img src="/img/auspiciantes/Legislatura.png" class="img-responsive wow fadeIn animated" alt="Legislatura de Cordoba"></img>
+	  </a>
+	</div><!--/col-md-3 -->
+      </div><!--/row -->
+      
+    </div><!--/box-def -->
+  </div><!--/container -->
+</div><!--/fondo -->

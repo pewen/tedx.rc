@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+<article  class="video-background">
+  <header class="header-hidden">
+    <h2>Video {{ page.title }}</h2>
+  </header>
+
+  <div class="video">
+    <iframe width="854" height="480" src="{{ page.video-link }}" frameborder="0" allowfullscreen></iframe>
+    <!-- Responsi Iframe -->
+    <script src="{{ "/js/responsive-iframes.js" | prepend: site.baseurl }}"></script>
+  </div><!--/video -->
+
+  <footer class="video-social">
+    <div class="container">
+      <ul>
+	<li class="video-share">
+	  <a>COMPARTI:</a>
+	</li>
+	
+	<li class="facebook">
+	  <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.video-link }}&amp;t={{ page.title | replace:' ','+' }}" target="_blank">
+	    <i class="fa fa-facebook"></i>
+	  </a>
+	</li>
+	
+	<li class="twitter">
+	  <a href="https://twitter.com/share?url={{ page.video-link }}&amp;via=TEDxRioCuarto&amp;hashtags=TEDxRioCuarto&amp;text={{ page.title | replace:' ','+' }}" target="_blank">
+	    <i class="fa fa-twitter"></i>
+	  </a>
+	</li>
+	
+	<li class="google">
+	  <a href="https://plus.google.com/share?{{ page.video-link }}" target="_blank">
+	    <i class="fa fa-google-plus"></i>
+	  </a>
+	</li>
+      </ul>
+    </div><!--/container -->
+  </footer>
+  
+</article>
+
+
+<div class="container">
+  <div class="row">
+    
+    <div class="col-sm-8 col-md-9">
+      <section class="video-content">
+	<h2>{{ page.title }}</h2>
+	<h3>{{ page.author }}</h3>
+	{{ content }}
+      </section>
+    </div><!--/col-sm-8 col-md-9 -->
+
+    <div class="col-sm-4 col-md-3">
+      <aside>
+	<h2 class="header-hidden">Twitter TimeLine</h2>
+	{% include twitter.html %}
+      </aside>
+    </div><!--/col-sm-4 col-md-3 -->
+
+  </div><!--/row -->
+</div><!--/container -->

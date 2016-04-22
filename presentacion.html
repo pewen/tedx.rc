@@ -1,0 +1,79 @@
+---
+title: Presentación
+layout: default
+imgs:
+  - "ad5"
+  - "ad3"
+  - "ad6"
+offset: [0, 4, 8]
+---
+
+{% include cover_carousel.html %}
+{% include anuncio_auspiciante.html %}
+
+
+<!-- ¿Por qué TED? -->
+<!-- ============= -->
+<div id="ted">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+	<div class="box-def wow bounceInLeft animated">
+	  <h2>¿Qué es TED?</h2>
+	  <p>TED es una organización sin fines de lucro cuyo objetivo es la difusión de ideas mediante exposiciones orales breves. El origen de TED se ubica en 1984, en Estados Unidos como una conferencia de Tecnología, Entretenimiento y Diseño.
+	    Hoy TED es un colectivo de identificación para todos aquellos que buscan una comprensión profunda del mundo y creen, de manera apasionada y ferviente, en el poder de las ideas como motor de cambio para la vida, o...el mundo. Actualmente TED representa también un centro de intercambio de conocimiento libre entre gran diversidad de pensadores y todos aquellos que se identifiquen a si mismos como curiosos, y que pretenden relacionarse con nuevas ideas y modos de ver el mundo.</p>
+	</div><!--/box-def -->
+      </div><!--/col-md-5-->
+    </div><!--/row -->
+  </div><!--/container -->
+</div><!--/ted -->
+
+<!-- ¿Y TEDx? -->
+<!-- ======== -->
+<div id="tedx">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+	<div class="box-def wow bounceInLeft animated">
+	  <h2>¿Y TEDx?</h2>
+	  <p>TED dio origen a TEDx. Se trata de eventos de organización independiente que siguen la misma línea y principios que TED. La realización de TEDx Rio Cuarto busca generar una instancia de colaboración abierta y con un equipo coordinador, que tenga como fin brindar un servicio a la comunidad local.</p>
+	  <h2>¿Por que lo hacemos?</h2>
+	  <p>Porque creemos en el ideario propuesto por la organización TED y en la difusión de ideas innovadoras que promuevan el compromiso, el cambio y la superación de los distintos ámbitos de nuestra sociedad, acciones que contribuyen al desarrollo de las ideas tanto locales como de afuera.</p>
+	</div><!--/box-def -->
+      </div><!--/col-md-5-->
+    </div><!--/row -->
+  </div><!--/container -->
+</div><!--/tedx -->
+
+
+
+<!-- Integrantes -->
+<!-- =========== -->
+<div id="equipo" class="integrantes">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 text-center">
+	<div class="box-def wow fadeIn animated">
+	  <h2>¿Quiénes somos?</h2>
+	  <p>Somos un grupo independiente y heterogéneo constituido por científicos, ingenieros, artistas, diseñadores y comunicadores que se encuentra organizando la primera charla TEDx de la ciudad de Río Cuarto.<p>
+	</div><!--/box-def -->
+      </div><!--/col-md-6 -->
+    </div><!--/row -->
+
+    {% for off in page.offset %}
+    <div class="row">
+      {% for integrante in site.data.integrantes limit:4 offset:off %}
+      <div class="col-xs-12 col-sm-6 col-md-3 {% if off == 8 and forloop.index == 1 %} col-md-offset-2 {% endif %} "style="margin-top:20px;">
+	<div class="box-def wow fadeInDown animated">
+	  <img alt="{{ integrante.nombre }}" class="img-responsive" src="{{ site.baseurl }}img/grupo/{{ integrante.img }}"></img>
+	  <h3>{{ integrante.nombre }}</h3>
+          <p>{{ integrante.tarea }}</p>
+	</div><!--/box-def -->
+      </div><!--/col-xs-12 -->
+      {% endfor %}
+    </div><!--/row -->
+    {% endfor %}
+
+  </div><!--/container -->
+</div><!--/integrantes -->

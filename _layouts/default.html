@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+    <header class="header-hidden">
+      <h1>Tedx Río Cuarto Edición 2015</h1>
+    </header>
+
+    {% include nav-bar.html %}
+
+    {{ content }}
+
+    {% if site.debug %}
+    {% include toc.html %}
+    {% endif %}
+    {% include footer.html %}
+    {% include js_scripts.html %}
+
+  </body>
+</html>

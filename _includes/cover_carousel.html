@@ -1,0 +1,35 @@
+<!-- Cover Corousel -->
+<!-- ============== -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <header class="header-hidden">
+    <h2>Carousel de imagenes</h2>
+  </header>
+  
+  <ol class="carousel-indicators">
+    {% for img in page.imgs %}
+    <li class="{% if forloop.index0 == 0 %} active {% endif %}" data-target="#myCarousel" data-slide-to="{{ forloop.index0 }}"></li>
+    {% endfor %}
+  </ol>
+
+  <div class="carousel-inner">
+    {% for img in page.imgs %}
+    <div class="item {{ img }} {% if forloop.index0 == 0 %} active {% endif %}">
+      <div class="container">
+	<div class="carousel-caption">
+	  <h3 class="header-hidden">Imagen {{ forloop.index }}</h3>
+	  <p class="hidden-xs hidden-sm"><b>Ideas que Vuelas</b></p>
+	  <p class="visible-sm"><b>Ideas que Vuelas</b></p>
+	  <p class="visible-xs"><b>Ideas que Vuelas</b></p>
+	</div><!--/carousel-caption -->
+      </div><!--/container -->
+    </div><!--/item -->
+    {% endfor %}
+    
+  </div><!--/carousel-inner -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div><!--/myCarousel -->
